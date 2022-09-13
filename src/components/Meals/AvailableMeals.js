@@ -38,11 +38,13 @@ const AvailableMeals = () => {
             price={meals.price}
         />
     )
-    return <section className={classes.meals}>
-        <Card>
-            <ul>{mealsList}</ul>
-        </Card>
-    </section>
+    return <>
+        <section className={classes.meals}>
+            <Card>
+                <ul>{mealsList}</ul>
+            </Card>
+        </section>
+    </>
 
 }
 
